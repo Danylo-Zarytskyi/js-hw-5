@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .b1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 3px solid black;
+}
+.container .button {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin-top: 50px;
+  display: flex;
+}
+.container .button .btnl {
+  width: 75px;
+  height: 150px;
+  border-right: 3px solid black;
+  font-size: 100px;
+  cursor: pointer;
+}
+.container .button .btnr {
+  width: 75px;
+  height: 150px;
+  font-size: 100px;
+  cursor: pointer;
+}
+.container .b2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 3px solid black;
+}
+
+.changebg {
+  margin-left: 550px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

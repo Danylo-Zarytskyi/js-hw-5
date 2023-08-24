@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+
+    .b1 {
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+        border: 3px solid black;
+    } 
+    .button {
+        width: 150px;
+        height: 150px;
+        border: 3px solid black;
+        border-radius: 8px;
+        margin-top: 50px;
+        display: flex;
+
+        .btnl {
+            width: 75px;
+            height: 150px;
+            border-right: 3px solid black;
+            font-size: 100px;
+            cursor: pointer;
+        }
+        .btnr {
+            width: 75px;
+            height: 150px;
+            font-size: 100px;
+            cursor: pointer;
+        }
+    }
+    .b2 {
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+        border: 3px solid black;
+    } 
+    
+}
+.changebg {
+    margin-left: 550px;
+    cursor: pointer;
+}
